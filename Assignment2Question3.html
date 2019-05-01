@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8"> <title> Assignemnt 2 Question 3</title>
+	<script>
+	var num = prompt("Please enter a number, and its multiplication table will be displayed. ", "");
+	var tab="";
+	
+	for (i=0; i<=num; i++){
+        tab += '<tr>';
+        for (j = 0; j <= num; j++) {
+            if ((i == 0) && (j != 0)) {
+                tab += '<td>' + j + '</td>';
+            }
+            else if ((i != 0) && (j == 0)) {
+                tab += '<td>' + i + '</td>';
+            } else {
+                tab += '<td>' + i * j + '</td>';
+            }
+        }
+        tab += '</tr>';
+	}
+        document.write('<table border="1" width=50%>' + tab + '</table>');
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

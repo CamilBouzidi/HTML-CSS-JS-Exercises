@@ -1,0 +1,78 @@
+body{
+background-image:url("https://imgc.allpostersimages.com/img/print/posters/cindy-miller-hopkins-clear-water-view-of-the-caribbean-sea-goff-caye-belize_a-G-10375473-4990715.jpg");
+}
+div.title{
+	border: 10px solid blue;
+	margin: 15px;
+	padding: 10px;
+	width: 1000px;
+	text-align: center;
+	background-color: #aaf7d7
+}
+h1{
+		color: blue;
+}
+table.outer{
+	border: 15px dashed red;
+	margin: 15px;
+	border-collapse: separate;
+}
+td.heading{
+	background-color: pink;
+	border-color: black;
+	color: grey;
+	padding: 10px;
+}
+
+td.generalCell{
+	border-width: 4px;
+	border-style: solid;
+	border-collapse: collapse;
+}
+
+td.c1r2{
+	background-color: orange;
+	border-color: yellow;
+}
+
+td.c1r3{
+	background-color: green;
+	border-color: dodgerblue;
+}
+td.c2r2{
+	background-color: #aaf7d7;
+	border-color: blue;
+}
+td.c2r3{
+	background-color: yellow;
+	border-color: purple;
+}
+ol.c1r2{
+	list-style-type: upper-roman;
+	 }
+ol.c1r3{
+	list-style-type: upper-roman;
+}
+
+ul.c2r2{
+	list-style-image: url('390005_preview.jpg');
+}
+ol.c2r2{
+	list-style-type: upper-alpha;
+}
+ul.c2r2Sub1{
+	list-style-type: bullet;
+    list-style-image: none;
+}
+ul.c2r2Sub2{
+    color: blue;
+}
+ol.c2r3{
+	list-style-type: upper-armenian;
+}
+ul.c2r3{
+	list-style-image: url('volleyball.png');
+}
+ul.c2r3Sub{
+    color: purple;
+}
